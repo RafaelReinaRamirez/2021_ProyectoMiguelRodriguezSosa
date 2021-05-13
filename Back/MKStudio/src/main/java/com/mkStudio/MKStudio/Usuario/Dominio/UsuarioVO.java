@@ -1,6 +1,7 @@
 package com.mkStudio.MKStudio.Usuario.Dominio;
 
 import com.mkStudio.MKStudio.Reserva.Dominio.ReservaVO;
+import com.mkStudio.MKStudio.Shared.Dominio.Audit.AuditableEntity;
 import lombok.*;
 
 import javax.persistence.*;

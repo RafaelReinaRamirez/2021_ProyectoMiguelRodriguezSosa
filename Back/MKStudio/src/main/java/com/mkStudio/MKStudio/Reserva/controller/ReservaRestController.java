@@ -1,12 +1,9 @@
 package com.mkStudio.MKStudio.Reserva.controller;
 
-import com.Equipo3.Backend.Evento.Aplicacion.Service.EventoService;
-import com.Equipo3.Backend.Evento.Dominio.DTO.EventoDTO;
-import com.Equipo3.Backend.Evento.Dominio.Mapper.EventoMapper;
-import com.Equipo3.Backend.Shared.Infraestructura.controller.constant.EndpointUrls;
 import com.mkStudio.MKStudio.Reserva.Dominio.DTO.ReservaDTO;
 import com.mkStudio.MKStudio.Reserva.Dominio.Mapper.ReservaMapper;
 import com.mkStudio.MKStudio.Reserva.Service.ReservaService;
+import com.mkStudio.MKStudio.Shared.Infraestructura.EndpointUrls;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

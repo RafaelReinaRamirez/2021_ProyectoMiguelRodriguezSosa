@@ -3,6 +3,7 @@ package com.mkStudio.MKStudio.Espacio.controller;
 import com.mkStudio.MKStudio.Espacio.Dominio.DTO.EspacioDTO;
 import com.mkStudio.MKStudio.Espacio.Dominio.Mapper.EspacioMapper;
 import com.mkStudio.MKStudio.Espacio.Service.EspacioService;
+import com.mkStudio.MKStudio.Shared.Infraestructura.EndpointUrls;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

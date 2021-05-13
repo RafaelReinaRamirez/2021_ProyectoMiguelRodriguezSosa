@@ -1,5 +1,7 @@
 package com.mkStudio.MKStudio.Usuario.Err;
 
+import com.mkStudio.MKStudio.Shared.Err.DomainError;
+
 /**
  * Clase Persona
  */

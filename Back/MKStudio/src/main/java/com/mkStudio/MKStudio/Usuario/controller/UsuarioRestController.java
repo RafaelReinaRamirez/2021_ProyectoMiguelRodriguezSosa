@@ -1,5 +1,6 @@
 package com.mkStudio.MKStudio.Usuario.controller;
 
+import com.mkStudio.MKStudio.Shared.Infraestructura.EndpointUrls;
 import com.mkStudio.MKStudio.Usuario.Dominio.DTO.UsuarioDTO;
 import com.mkStudio.MKStudio.Usuario.Dominio.Mapper.UsuarioMapper;
 import com.mkStudio.MKStudio.Usuario.Service.UsuarioService;

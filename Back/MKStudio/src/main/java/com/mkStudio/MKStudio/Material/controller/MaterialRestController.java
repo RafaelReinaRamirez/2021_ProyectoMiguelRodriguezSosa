@@ -3,6 +3,7 @@ package com.mkStudio.MKStudio.Material.controller;
 import com.mkStudio.MKStudio.Material.Dominio.DTO.MaterialDTO;
 import com.mkStudio.MKStudio.Material.Dominio.Mapper.MaterialMapper;
 import com.mkStudio.MKStudio.Material.Service.MaterialService;
+import com.mkStudio.MKStudio.Shared.Infraestructura.EndpointUrls;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

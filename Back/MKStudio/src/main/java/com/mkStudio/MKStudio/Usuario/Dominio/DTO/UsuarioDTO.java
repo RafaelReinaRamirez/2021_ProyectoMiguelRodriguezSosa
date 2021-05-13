@@ -1,6 +1,7 @@
 package com.mkStudio.MKStudio.Usuario.Dominio.DTO;
 
 import com.mkStudio.MKStudio.Reserva.Dominio.DTO.ReservaDTO;
+import com.mkStudio.MKStudio.Shared.Aplicacion.Dto;
 import lombok.*;
 
 import java.io.Serializable;
