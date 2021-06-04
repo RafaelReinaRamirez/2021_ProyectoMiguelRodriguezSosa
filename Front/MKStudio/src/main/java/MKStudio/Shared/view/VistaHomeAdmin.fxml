@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="190.0" prefWidth="608.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MKStudio.GestionUsuarios.controller.AdminController">
+    <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="190.0" prefWidth="608.0">
+         <children>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="190.0" prefWidth="608.0" style="-fx-background-color: #FC4119;">
+               <children>
+                  <Button fx:id="botonGestionMaterial" layoutX="58.0" layoutY="101.0" mnemonicParsing="false" onAction="#abrirVistaMaterial" style="-fx-background-color: #F3755A;" text="Gestión Material" />
+                  <Button fx:id="botonGestionEspacio" layoutX="210.0" layoutY="101.0" mnemonicParsing="false" onAction="#abrirVistaEspacio" style="-fx-background-color: #F3755A;" text="Gestión Espacio" />
+                  <Button fx:id="botonVerificarReserva" layoutX="369.0" layoutY="101.0" mnemonicParsing="false" onAction="#abrirVistaReserva" style="-fx-background-color: #F3755A;" text="Verificar Reserva" />
+                  <Button fx:id="botonChat" layoutX="544.0" layoutY="101.0" mnemonicParsing="false" onAction="#abrirVistaChat" style="-fx-background-color: #F3755A;" text="Chat" />
+                  <AnchorPane prefHeight="57.0" prefWidth="608.0" style="-fx-background-color: #F3755A;">
+                     <children>
+                        <Button fx:id="botonConsultar" layoutX="23.0" layoutY="16.0" mnemonicParsing="false" onAction="#abrirVistaPerfil" style="-fx-background-color: #FC4119;" text="Consultar Perfil" />
+                        <Label layoutX="401.0" layoutY="10.0" text="Vista ADMIN">
+                           <font>
+                              <Font name="Arial Black" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <Button fx:id="botonVolver" layoutX="14.0" layoutY="139.0" mnemonicParsing="false" onAction="#volver" prefHeight="37.0" prefWidth="39.0" style="-fx-background-radius: 20; -fx-background-color: #F3755A;" text="&lt;-" textAlignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="190.0" prefWidth="608.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MKStudio.GestionUsuarios.controller.UserController">
+    <children>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="190.0" prefWidth="608.0" style="-fx-background-color: #FC4119;">
+         <children>
+            <Button fx:id="botonVerMaterial" layoutX="63.0" layoutY="101.0" mnemonicParsing="false" onAction="#abrirVistaMaterial" style="-fx-background-color: #F3755A;" text="Ver Material" />
+            <Button fx:id="botonVerEspacio" layoutX="177.0" layoutY="101.0" mnemonicParsing="false" onAction="#abrirVistaEspacio" style="-fx-background-color: #F3755A;" text="Ver Espacio" />
+            <Button fx:id="botonSolicitarReserva" layoutX="279.0" layoutY="101.0" mnemonicParsing="false" onAction="#abrirVistaSolicitarReserva" style="-fx-background-color: #F3755A;" text="Solicitar Reserva" />
+            <Button fx:id="botonChat" layoutX="517.0" layoutY="101.0" mnemonicParsing="false" onAction="#abrirVistaChat" style="-fx-background-color: #F3755A;" text="Chat" />
+            <AnchorPane prefHeight="57.0" prefWidth="608.0" style="-fx-background-color: #F3755A;">
+               <children>
+                  <Button fx:id="botonConsultar" layoutX="23.0" layoutY="16.0" mnemonicParsing="false" onAction="#abrirVistaPerfil" style="-fx-background-color: #FC4119;" text="Consultar Perfil" />
+                  <Label layoutX="377.0" layoutY="10.0" text="Vista USUARIO">
+                     <font>
+                        <Font name="Arial Black" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Button fx:id="botonVerReserva" layoutX="409.0" layoutY="101.0" mnemonicParsing="false" onAction="#abrirVistaVerReserva" style="-fx-background-color: #F3755A;" text="Ver Reservas" />
+            <Button fx:id="botonVolver" layoutX="15.0" layoutY="137.0" mnemonicParsing="false" onAction="#volver" prefHeight="37.0" prefWidth="39.0" style="-fx-background-radius: 20; -fx-background-color: #F3755A;" text="&lt;-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>
