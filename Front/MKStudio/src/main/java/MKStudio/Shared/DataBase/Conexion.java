@@ -17,7 +17,7 @@ public class Conexion {
     public static Connection ConexionJDBC() {
         if (conn == null) {
             try {
-                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mkstudio", "root", "");
+                conn = DriverManager.getConnection("jdbc:mysql://localhost:3311/mkstudio", "migue", "mkstudio");
             } catch (SQLException e) {
                 System.out.println(e);
                 Alert alert = new Alert(Alert.AlertType.ERROR);
